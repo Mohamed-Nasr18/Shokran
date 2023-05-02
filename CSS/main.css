@@ -1,0 +1,885 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 22222222222;
+}
+
+nav .logo {
+    width: 40%;
+}
+
+nav .logo div {
+    width: 15%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+nav .logo div img {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    width: 40%;
+    height: 20px;
+    display: flex;
+    margin-right: 300px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a button {
+    width: 130px;
+    padding: 10px 20px;
+    margin-top: -10px;
+    background-color: white;
+    border: 2px solid rgb(255, 165, 0);
+    border-radius: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+nav ul li a button i {
+    color: rgb(255, 165, 0);
+}
+
+/*============================================End Nav====================================================*/
+.home .about {
+    width: 80%;
+    margin: auto;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.home .about .par {
+    width: 42%;
+    margin-top: 180px;
+}
+
+.home .about .par h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+}
+
+.home .about .par p {
+    font-size: 26px;
+    font-family: 'Jost', sans-serif;
+    color: rgba(32, 32, 32, 0.6);
+    padding-bottom: 30px;
+}
+
+.home .about .par button {
+    padding: 15px 30px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(255, 165, 0);
+    border: 1px solid rgb(255, 165, 0);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home .about .par button:hover {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    transition: 1s;
+}
+
+.home .about .photo1 {
+    width: 40%;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.home .about .photo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*===========================================End about===================================================*/
+.home .logos {
+    width: 100%;
+    height: 150px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.home .logos div {
+    width: 8%;
+    height: 90px;
+    padding: 20px;
+}
+
+.home .logos div img {
+    width: 100%;
+    height: 100%;
+}
+
+/*===========================================End logos===================================================*/
+.home .using {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.home .using h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+}
+
+.home .using .photo {
+    width: 40%;
+    margin: 10px;
+}
+
+.home .using .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .using .par {
+    width: 40%;
+    margin: 10px;
+}
+
+.home .using .par p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 68);
+}
+
+.home .using .par a button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: rgb(255, 165, 0);
+    border: 2px solid rgb(255, 165, 0);
+    background-color: white;
+    cursor: pointer;
+}
+
+.home .using .par a button:hover {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+/*=============================================End using=================================================*/
+.home .About {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.home .About h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+}
+
+.home .About .par1 {
+    width: 40%;
+    margin: 15px;
+}
+
+.home .About .par1 p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 68);
+}
+
+.home .About .par1 p i {
+    color: rgb(255, 165, 0);
+}
+
+.home .About .par2 {
+    width: 40%;
+    margin: 15px;
+}
+
+.home .About .par2 p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: rgb(68, 68, 68);
+}
+
+.home .About .par2 a button {
+    padding: 10px 25px;
+    font-size: 18px;
+    color: rgb(255, 165, 0);
+    border: 2px solid rgb(255, 165, 0);
+    background-color: white;
+    cursor: pointer;
+}
+
+.home .About .par2 a button:hover {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+/*==============================================End About=================================================*/
+.home .categories {
+    width: 100%;
+    background-color: rgb(243, 245, 250);
+    padding: 100px 0px;
+}
+
+.home .categories h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+}
+
+.home .categories .layout {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home .categories .layout div {
+    width: 28%;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+}
+
+.home .categories .layout div img {
+    width: 100%;
+    height: 100%;
+}
+
+.home .categories .layout div h3 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(255, 165, 0);
+    position: absolute;
+    top: 50px;
+    padding-top: 10px;
+}
+
+/*=============================================End Categories=============================================*/
+.home .brand {
+    width: 100%;
+    background-color: rgb(243, 245, 250);
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+.home .brand h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+}
+
+.home .brand p {
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.home .brand .photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home .brand .photo div {
+    width: 15%;
+    margin: 20px;
+}
+
+.home .brand .photo div img {
+    width: 100%;
+    height: 100%;
+}
+
+/*==============================================End Brand=================================================*/
+.home .contact {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.home .contact .layout {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.home .contact .layout h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(55, 81, 126);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 20px;
+}
+
+.home .contact .layout p {
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+    padding-bottom: 50px;
+}
+
+.home .contact .layout .photo {
+    width: 42%;
+    margin: 15px;
+}
+
+.home .contact .layout .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------------------------------------------*/
+.home .contact .layout .data {
+    width: 45%;
+    margin: 15px;
+    border-top: 5px solid rgb(255, 165, 0);
+    border-bottom: 5px solid rgb(255, 165, 0);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(32, 32, 32, 0.4);
+}
+
+.home .contact .layout .data .name {
+    width: 45%;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.home .contact .layout .data .name input {
+    width: 90%;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.home .contact .layout .data .email {
+    width: 45%;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.home .contact .layout .data .email input {
+    width: 90%;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.home .contact .layout .data .message {
+    width: 90%;
+}
+
+.home .contact .layout .data .message label {
+    display: block;
+}
+
+.home .contact .layout .data .message textarea {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.home .contact .layout .data button {
+    margin: 25px;
+    padding: 15px 30px;
+    border: 1px solid rgb(255, 165, 0);
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(255, 165, 0);
+    cursor: pointer;
+}
+
+/*=============================================End Contact================================================*/
+.home .info {
+    width: 66%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.home .info h3 {
+    font-size: 18px;
+    color: rgb(55, 81, 126);
+    padding-bottom: 5px;
+}
+
+.home .info p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.home .info .icon {
+    padding: 10px;
+}
+
+.home .info .icon a i {
+    font-size: 28px;
+    margin: 10px;
+    border-radius: 50%;
+    color: rgb(255, 165, 0);
+}
+
+/*===============================================End Info=================================================*/
+.home footer {
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: rgb(55, 81, 126);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.home footer .par1 {
+    width: 30%;
+    margin: 20px;
+}
+
+.home footer .par1 p {
+    font-size: 18px;
+}
+
+.home footer .par2 {
+    width: 30%;
+    margin: 20px;
+}
+
+.home footer .par2 p {
+    font-size: 18px;
+}
+
+.home footer .par2 p a {
+    text-decoration: none;
+    color: rgb(255, 165, 0);
+}
+
+.home footer .par2 p a:hover {
+    color: burlywood;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/*==============================================End Footer================================================*/
+/***********************************************End index**************************************************/
+.offers {
+    width: 100%;
+    height: 190px;
+    background-color: rgb(243, 245, 250);
+    overflow: auto;
+}
+
+.offers h2 {
+    margin-top: 120px;
+    margin-left: 200px;
+    font-size: 16px;
+}
+
+.offers h2 a {
+    text-decoration: none;
+    color: rgb(255, 165, 0);
+}
+
+.offers h1 {
+    font-size: 32px;
+    color: rgb(55, 81, 126);
+    margin-left: 200px;
+}
+
+/*======================================*/
+.container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container div {
+    width: 23%;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 5px;
+}
+
+.container div img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container div h2 {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.container div p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.container div button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+}
+
+/*=====================================*/
+.info {
+    width: 66%;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    color: rgb(55, 81, 126);
+    padding-bottom: 5px;
+}
+
+.info p {
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.info .icon {
+    padding: 10px;
+}
+
+.info .icon a i {
+    font-size: 28px;
+    margin: 10px;
+    border-radius: 50%;
+    color: rgb(255, 165, 0);
+}
+
+/*===============================================End Info=================================================*/
+footer {
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: rgb(55, 81, 126);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+footer .par1 {
+    width: 30%;
+    margin: 20px;
+}
+
+footer .par1 p {
+    font-size: 18px;
+}
+
+footer .par2 {
+    width: 30%;
+    margin: 20px;
+}
+
+footer .par2 p {
+    font-size: 18px;
+}
+
+footer .par2 p a {
+    text-decoration: none;
+    color: rgb(255, 165, 0);
+}
+
+footer .par2 p a:hover {
+    color: burlywood;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/*==============================================End Footer================================================*/
+
+@media (max-width: 950px) {
+    nav ul {
+        display: none;
+    }
+
+    nav .logo {
+        margin: auto;
+    }
+
+    /*--------------------------------*/
+    .home .about .par {
+        width: 35%;
+    }
+
+    .home .about .par h1 {
+        font-size: 24px;
+    }
+
+    .home .about .par p {
+        font-size: 18px;
+    }
+
+    .home .about .photo1 {
+        width: 35%;
+    }
+
+    /*=============================================================================*/
+
+}
+
+@media (max-width: 750px) {
+    nav .logo div {
+        width: 20%;
+    }
+
+    .home .about .par h1 {
+        font-size: 20px;
+    }
+
+    .home .about .photo1 {
+        width: 25%;
+        height: 300px;
+    }
+
+    .home .using .par a button {
+        width: 150px;
+        height: 75px;
+        font-size: 16px;
+    }
+
+    .home .contact .layout .photo {
+        width: 90%;
+    }
+
+    .home .contact .layout .data {
+        width: 90%;
+    }
+
+    /*============================================================================*/
+    .offers h2 {
+        margin-left: 150px;
+    }
+
+    .offers h1 {
+        margin-left: 150px;
+    }
+
+    .container div {
+        width: 60%;
+    }
+}
+
+@media (max-width: 550px) {
+    nav .logo div {
+        width: 30%;
+    }
+
+    .home .about {
+        direction: rtl;
+    }
+
+    .home .about .photo1 {
+        width: 80%;
+    }
+
+    .home .about .par {
+        width: 80%;
+    }
+
+    /*----------------------------------------------------*/
+    .home .logos {
+        margin-top: 300px;
+        flex-wrap: wrap;
+    }
+
+    .home .logos div {
+        width: 52%;
+        height: 140px;
+    }
+
+    /*----------------------------------------------------------*/
+    .home .using {
+        margin-top: 1000px;
+    }
+
+    .home .using .photo {
+        width: 90%;
+    }
+
+    .home .using .par {
+        width: 90%;
+    }
+
+    .home .using .par p {
+        font-size: 20px;
+    }
+
+    .home .using .par a button {
+        width: 200px;
+        height: 60px;
+    }
+
+    /*----------------------------------------------------*/
+    .home .About .par1 {
+        width: 90%;
+    }
+
+    .home .About .par2 {
+        width: 90%;
+    }
+
+    /*--------------------------------------------------*/
+    .home .categories .layout div {
+        width: 90%;
+    }
+
+    /*----------------------------------------------------*/
+    .home .brand p {
+        width: 90%;
+    }
+
+    .home .brand .photo div {
+        width: 80%;
+    }
+
+    /*------------------------------------------------------*/
+    .home .contact .layout {
+        width: 90%;
+    }
+
+    .home .contact .layout p {
+        width: 90%;
+    }
+
+    /*----------------------------------------------------------*/
+    .home .contact .layout .data .name {
+        width: 90%;
+    }
+
+    .home .contact .layout .data .email {
+        width: 90%;
+    }
+
+    /*---------------------------------------------------------*/
+    .home .info {
+        width: 90%;
+    }
+
+    /*-------------------------------------------------------------*/
+    .home footer {
+        height: 400px;
+    }
+
+    .home footer .par1 {
+        width: 90%;
+    }
+
+    .home footer .par2 {
+        width: 90%;
+    }
+
+    /*===========================================================================================*/
+    .offers h2 {
+        margin-left: 80px;
+    }
+
+    .offers h1 {
+        margin-left: 80px;
+    }
+
+    .container div {
+        width: 80%;
+    }
+
+    /*-------------------------------------------------------------*/
+    .info {
+        width: 90%;
+    }
+
+    /*--------------------------------------------------------------*/
+    footer {
+        height: 400px;
+    }
+
+    footer .par1 {
+        width: 90%;
+    }
+
+    footer .par2 {
+        width: 90%;
+    }
+}
